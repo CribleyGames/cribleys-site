@@ -1,24 +1,26 @@
 body {
     margin: 0;
     font-family: trebuchet ms;
+    color: #FFFFFF;
+    background-color: #36393F;
 }
 .topnav {
     overflow: hidden;
-    background-color: white;
+    background-color: #2F3136;
 }
 .topnav a {
     float: left;
-    color: black;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 .topnav a:hover {
-    background-color: gray;
-    color: white;
+    background-color: #34373C;
+    color: #DCDDDE;
 }
 .topnav a.active {
-    background-color: gray;
-    color: white;
+    background-color: #393C43;
+    color: #FFFFFF;
 }
