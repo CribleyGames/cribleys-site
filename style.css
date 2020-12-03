@@ -17,10 +17,9 @@ body {
     font-size: 17px;
 }
 .topnav a:hover {
-    background-color: #34373C;
-    color: #DCDDDE;
+    text-decoration: underline;
 }
-.topnav a.active {
-    background-color: #393C43;
-    color: #FFFFFF;
-}
+.topnav a::after{
+  content:"|";
+  position:absolute;
+  margin-left:10px;
